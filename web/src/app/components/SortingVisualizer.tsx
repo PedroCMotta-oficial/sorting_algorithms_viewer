@@ -1,0 +1,37 @@
+"use client"
+
+import { useState, useEffect } from "react";
+
+interface SortingVisualizerProps {
+  iterations: number[][]; // Lista de estados das iterações
+}
+
+export default function SortingVisualizer({ iterations }: SortingVisualizerProps) {
+  const [currentStep, setCurrentStep] = useState(0);
+  const [activeIndices, setActiveIndices] = useState<number[]>([]);
+
+  useEffect(() => {
+    if (currentStep < iterations.length - 1) {
+      const timer = setTimeout(() => {
+        setCurrentStep((prev) => prev + 1);
+      }, 250); // Tempo entre animações (ajustável)
+      return () => clearTimeout(timer);
+    }
+  }, [currentStep, iterations]);
+
+  const currentArray = iterations[currentStep] || [];
+
+  return (
+    <div className="relative w-full h-64 bg-gray-800 flex items-end justify-center gap-1 p-4">
+      {currentArray.map((value, index) => (
+        <div
+          key={index}
+          className={`w-6 transition-all duration-300 ${
+            activeIndices.includes(index) ? "bg-green-400" : "bg-purple-500"
+          }`}
+          style={{ height: `${value * 2}px` }}
+        ></div>
+      ))}
+    </div>
+  );
+}
