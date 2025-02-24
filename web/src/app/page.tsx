@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import SortingVisualizer from "@/app/components/SortingVisualizer";
+import SortingForm from "@/app/components/SortingForm";
 
 export default function Home() {
   // Array inicial
@@ -60,7 +61,11 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center gap-4 p-6">
       <h1 className="text-2xl font-bold">Sorting Visualizer</h1>
-      <SortingVisualizer iterations={simulatedIterations} />
+      <div className="flex flex-row">
+        <SortingForm />
+        <SortingVisualizer iterations={simulatedIterations} />
+      </div>
+      
     </div>
   );
 }
