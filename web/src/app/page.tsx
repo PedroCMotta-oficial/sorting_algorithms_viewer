@@ -59,9 +59,16 @@ export default function Home() {
   
 
   return (
-    <div className="flex flex-col items-center gap-4 p-6">
-      <h1 className="text-2xl font-bold">Sorting Visualizer</h1>
-      <div className="flex flex-row">
+    <div className="bg-gray-800 h-dvh">
+      <header className="flex flex-row justify-between items-center p-3 ">
+        <div></div>
+        <h1 className="text-2xl font-bold text-center">Visualizador de Ordenações</h1>
+        <nav>
+          <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer">github do projeto</a>
+        </nav>
+      </header>
+
+      <div className="flex flex-row px-80">
         <SortingForm />
         <SortingVisualizer iterations={simulatedIterations} />
       </div>
