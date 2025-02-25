@@ -59,20 +59,49 @@ export default function Home() {
   
 
   return (
-    <div className="bg-gray-800 h-dvh">
-      <header className="flex flex-row justify-between items-center p-3 ">
-        <div></div>
-        <h1 className="text-2xl font-bold text-center">Visualizador de Ordenações</h1>
-        <nav>
-          <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer">github do projeto</a>
-        </nav>
-      </header>
+    <div>
+      <header>
 
-      <div className="flex flex-row px-80">
-        <SortingForm />
-        <SortingVisualizer iterations={simulatedIterations} />
+        <div>
+          <h1>Project Title</h1>
+          <a href="">Guide</a>
+        </div>
+
+      </header>
+        
+      <div>
+
+        <div>
+          <h3>Seing the sorting iterations has never been easier</h3>
+          <p>Understand the process of each sorting algorithm easily</p>
+        </div>
+
       </div>
-      
+
+      <div>
+
+        <SortingForm />
+        <SortingVisualizer iterations={simulatedIterations}/>
+
+      </div>
+        
+      <footer>
+
+        <div>
+            <p>Released under ___ license</p>
+            <p>Copyright c 2025 SAV Contributors</p>
+        </div>
+
+        <div>
+          <div>
+            <a href="">License</a>
+            <a href="">Donate</a>
+            <a href="">Github</a>
+            <a href="">Issues</a>
+          </div>
+        </div>
+
+      </footer>
     </div>
   );
 }
