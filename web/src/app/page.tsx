@@ -35,54 +35,37 @@ export default function Home() {
     [3, 10, 15, 23, 31, 42, 56, 67, 74, 98]
   ]
 
-  /*
-  // MERGE SORT
-  const simulatedIterations = [
-    [10, 42, 3, 98, 23, 56, 74, 15, 67, 31],
-    [3, 10, 42, 98, 23, 56, 74, 15, 67, 31],
-    [3, 10, 42, 23, 98, 56, 74, 15, 67, 31],
-    [3, 10, 23, 42, 98, 56, 74, 15, 67, 31],
-    [3, 10, 23, 42, 98, 56, 74, 15, 67, 31],
-    [3, 10, 23, 42, 98, 15, 56, 74, 67, 31],
-    [3, 10, 23, 42, 98, 15, 56, 74, 31, 67],
-    [3, 10, 23, 42, 98, 15, 31, 56, 67, 74],
-    [3, 10, 15, 23, 31, 42, 56, 67, 74, 98]
-  ]*/
-
-  
-  /*
-  // RADIX SORT
-  const simulatedIterations = [
-    [42, 10, 3, 98, 23, 56, 74, 15, 67, 31],
-    [10, 31, 42, 3, 23, 74, 15, 56, 67, 98],
-    [3, 10, 15, 23, 31, 42, 56, 67, 74, 98]
-  ]*/
-  
-
   return (
     <div className="bg-background min-h-dvh">
       <header>
-        <div className="flex flex-row items-center justify-between px-20 md:px-70 h-20">
+        <div className="flex flex-col md:flex-row items-center justify-between px-20 md:px-70 py-4.5">
 
-          <div className="flex flex-row gap-2 items-center">
-            <ChartNoAxesColumnIncreasing className="size-10 text-textHighlight"/>
-            <h1 className="text-textPrimary font-bold text-2xl">Sorting Algorithm Viewer</h1>
-          </div>
+          <a href="">
+            <div className="flex flex-row gap-2 items-center cursor-pointer">
+              <ChartNoAxesColumnIncreasing className="size-10 text-textHighlight"/>
+              <h1 className="text-textPrimary font-bold text-2xl">Visualizador de Algoritmos de Ordenação</h1>
+            </div>
+          </a>
+
           
           <div className="flex flex-row gap-10 items-center ">
 
-            <a href="" className="text-textSecundary font-bold">Guide</a>
-            <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer"><Github className="text-textSecundary"/></a>
+            <a href="" className="text-textSecundary font-bold cursor-pointer transition-colors duration-250 hover:text-textHighlight">
+              <div className="p-3">Guia</div>
+            </a>
+            <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer" className="text-textSecundary cursor-pointer transition-colors duration-250 hover:text-textHighlight">
+              <div className="p-3"><Github /></div>
+            </a>
             
           </div>
           
         </div>
       </header>
         
-      <div>
+      <div className="flex flex-row items-center justify-between px-20 md:px-70 h-20">
 
         <div>
-          <h3>Seing the sorting iterations has never been easier</h3>
+          <h3>Observar as iterações nunca foi tã</h3>
           <p>Understand the process of each sorting algorithm easily</p>
         </div>
 
