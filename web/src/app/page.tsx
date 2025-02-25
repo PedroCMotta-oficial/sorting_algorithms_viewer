@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SortingVisualizer from "@/app/components/SortingVisualizer";
 import SortingForm from "@/app/components/SortingForm";
+import { ChartNoAxesColumnIncreasing, Github } from "lucide-react";
 
 export default function Home() {
   // Array inicial
@@ -59,14 +60,23 @@ export default function Home() {
   
 
   return (
-    <div>
+    <div className="bg-background min-h-dvh">
       <header>
+        <div className="flex flex-row items-center justify-between px-20 md:px-70 h-20">
 
-        <div>
-          <h1>Project Title</h1>
-          <a href="">Guide</a>
+          <div className="flex flex-row gap-2 items-center">
+            <ChartNoAxesColumnIncreasing className="size-10 text-textHighlight"/>
+            <h1 className="text-textPrimary font-bold text-2xl">Sorting Algorithm Viewer</h1>
+          </div>
+          
+          <div className="flex flex-row gap-10 items-center ">
+
+            <a href="" className="text-textSecundary font-bold">Guide</a>
+            <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer"><Github className="text-textSecundary"/></a>
+            
+          </div>
+          
         </div>
-
       </header>
         
       <div>
