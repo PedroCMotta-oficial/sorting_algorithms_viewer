@@ -61,17 +61,23 @@ export default function Home() {
           
         </div>
       </header>
-        
-      <div className="flex flex-row items-center justify-between px-20 md:px-70 h-20">
 
-        <div>
-          <h3>Observar as iterações nunca foi tã</h3>
-          <p>Understand the process of each sorting algorithm easily</p>
+      <div className="px-35 md:px-90 py-5">
+
+        <div className="px-2.5 py-1 bg-DarkerBackground text-textSecundary font-bold rounded-xl w-fit">
+          v0.1
+        </div>
+        <div className="mt-2">
+          <h3 className="text-6xl font-extrabold text-textPrimary">
+            <span className="text-textHighlight">Visualize </span>
+            a <br />ordenação
+          </h3>
+          <p className="text-textSecundary font-bold mt-7 text-2xl">Mais de 5 algoritmos para visualizar</p>
         </div>
 
       </div>
 
-      <div>
+      <div className="flex flex-row px-35 md:px-90 h-150 py-5">
 
         <SortingForm />
         <SortingVisualizer iterations={simulatedIterations}/>
