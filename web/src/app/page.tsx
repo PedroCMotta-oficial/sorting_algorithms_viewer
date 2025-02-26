@@ -62,6 +62,7 @@ export default function Home() {
         </div>
       </header>
 
+      {/*
       <div className="px-35 md:px-90 py-5">
 
         <div className="px-2.5 py-1 bg-DarkerBackground text-textSecundary font-bold rounded-xl w-fit">
@@ -74,6 +75,14 @@ export default function Home() {
           </h3>
           <p className="text-textSecundary font-bold mt-7 text-2xl">Mais de 5 algoritmos para visualizar</p>
         </div>
+
+      </div>
+      */}
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-75 md:px-125 py-4.5">
+
+        <div className="bg-gridItemBackgroundColor w-2xs h-32"></div>
+        <div className="bg-gridItemBackgroundColor w-2xs h-32"></div>
 
       </div>
 
