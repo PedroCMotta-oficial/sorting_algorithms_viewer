@@ -79,10 +79,15 @@ export default function Home() {
       </div>
       */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-75 md:px-125 py-4.5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-75 md:px-[450px] py-4.5 justify-items-center">
 
-        <div className="bg-gridItemBackgroundColor w-2xs h-32"></div>
-        <div className="bg-gridItemBackgroundColor w-2xs h-32"></div>
+        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
+
+        </div>
+        
+        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
+
+        </div>
 
       </div>
 
