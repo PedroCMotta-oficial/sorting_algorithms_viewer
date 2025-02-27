@@ -22,7 +22,7 @@ export default function SortingVisualizer({ iterations }: SortingVisualizerProps
   const currentArray = iterations[currentStep] || [];
 
   return (
-    <div className="relative w-full  bg-gray-800 flex items-end justify-center gap-1 p-4">
+    <div className="relative w-full h-full bg-background flex items-end justify-center gap-1 p-4 rounded-sm border-2 border-textSecundary border-dashed">
       {currentArray.map((value, index) => (
         <div
           key={index}
