@@ -3,6 +3,7 @@
 import { useState } from "react";
 import SortingVisualizer from "@/app/components/SortingVisualizer";
 import SortingForm from "@/app/components/SortingForm";
+import SortingComparisons from "./components/SortingComparisons";
 import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler, ArrowUpRight } from "lucide-react";
 
 export default function Home() {
@@ -78,11 +79,14 @@ export default function Home() {
 
       </div>
 
-      <div className="flex flex-row px-35 md:px-90 h-150 py-5">
+      <div className="flex flex-col px-35 md:px-90 h-150 py-5 gap-10">
 
         <SortingForm />
-        <SortingVisualizer iterations={simulatedIterations}/>
-
+        <div className="flex flex-row gap-6 items-center">
+          <SortingVisualizer iterations={simulatedIterations}/>
+          <SortingComparisons />
+        </div>
+ 
       </div>
         
       <footer>
