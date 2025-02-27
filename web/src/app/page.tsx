@@ -3,7 +3,7 @@
 import { useState } from "react";
 import SortingVisualizer from "@/app/components/SortingVisualizer";
 import SortingForm from "@/app/components/SortingForm";
-import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler } from "lucide-react";
+import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler, ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   // Array inicial
@@ -62,23 +62,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/*
-      <div className="px-35 md:px-90 py-5">
-
-        <div className="px-2.5 py-1 bg-DarkerBackground text-textSecundary font-bold rounded-xl w-fit">
-          v0.1
-        </div>
-        <div className="mt-2">
-          <h3 className="text-6xl font-extrabold text-textPrimary">
-            <span className="text-textHighlight">Visualize </span>
-            a <br />ordenação
-          </h3>
-          <p className="text-textSecundary font-bold mt-7 text-2xl">Mais de 5 algoritmos para visualizar</p>
-        </div>
-
-      </div>
-      */}
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-75 md:px-[450px] py-4.5 justify-items-center">
 
         <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl p-5 flex flex-col justify-start">
@@ -103,21 +86,44 @@ export default function Home() {
       </div>
         
       <footer>
+        <div className="flex flex-col md:flex-row items-center justify-between px-20 md:px-70 py-4.5">
 
-        <div>
-            <p>Released under ___ license</p>
-            <p>Copyright c 2025 SAV Contributors</p>
-        </div>
+          <div className="flex flex-row gap-2">
+            <a href="" className="px-1.5 py-1 ">
+              <div className="flex flex-row gap-1 items-center cursor-pointer">
+                <h1 className="text-textPrimary font-semibold">Licença</h1>
+                <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
+              </div>
+            </a>
 
-        <div>
-          <div>
-            <a href="">License</a>
-            <a href="">Donate</a>
-            <a href="">Github</a>
-            <a href="">Issues</a>
+            <a href="" className="px-1.5 py-1 ">
+              <div className="flex flex-row gap-1 items-center cursor-pointer">
+                <h1 className="text-textPrimary font-semibold">Doações</h1>
+                <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
+              </div>
+            </a>
+
+            <a href="" className="px-1.5 py-1 ">
+              <div className="flex flex-row gap-1 items-center cursor-pointer">
+                <h1 className="text-textPrimary font-semibold">GitHub</h1>
+                <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
+              </div>
+            </a>
+
+            <a href="" className="px-1.5 py-1 ">
+              <div className="flex flex-row gap-1 items-center cursor-pointer">
+                <h1 className="text-textPrimary font-semibold">Problemas</h1>
+                <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
+              </div>
+            </a>
           </div>
-        </div>
 
+          <div className="flex flex-col items-end gap-2 font-semibold text-textSecundary">
+              <p>Released under ___ license</p>
+              <p>Copyright© 2025</p>
+          </div>
+
+        </div>
       </footer>
     </div>
   );
