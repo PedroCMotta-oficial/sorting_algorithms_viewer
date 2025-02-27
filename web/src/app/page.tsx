@@ -120,6 +120,13 @@ export default function Home() {
                 <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
               </div>
             </a>
+
+            <a href="" className="px-1.5 py-1 ">
+              <div className="flex flex-row gap-1 items-center cursor-pointer">
+                <h1 className="text-textPrimary font-semibold">Sobre</h1>
+                <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
+              </div>
+            </a>
           </div>
 
           <div className="flex flex-col items-end gap-2 font-semibold text-textSecundary">
