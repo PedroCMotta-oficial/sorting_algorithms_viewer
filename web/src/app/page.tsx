@@ -3,7 +3,7 @@
 import { useState } from "react";
 import SortingVisualizer from "@/app/components/SortingVisualizer";
 import SortingForm from "@/app/components/SortingForm";
-import { ChartNoAxesColumnIncreasing, Github } from "lucide-react";
+import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler } from "lucide-react";
 
 export default function Home() {
   // Array inicial
@@ -82,11 +82,15 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-75 md:px-[450px] py-4.5 justify-items-center">
 
         <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
-
+          <div><Clapperboard /></div>
+          <h3>Veja as iterações</h3>
+          <p>É possível ver o comportamento de cada algoritmo de maneira intuitiva</p>
         </div>
-        
-        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
 
+        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
+          <div><PencilRuler /></div>
+          <h3>Possui comparações</h3>
+          <p>Veja a comparação entre os algoritmos em cada caso para um melhor estudo</p>
         </div>
 
       </div>
