@@ -81,16 +81,16 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-75 md:px-[450px] py-4.5 justify-items-center">
 
-        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
-          <div><Clapperboard /></div>
-          <h3>Veja as iterações</h3>
-          <p>É possível ver o comportamento de cada algoritmo de maneira intuitiva</p>
+        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl p-5 flex flex-col justify-start">
+          <div className="bg-DarkerBackground p-2.5 w-fit rounded-xl absolute"><Clapperboard className="text-textHighlight"/></div>
+          <h3 className="font-bold text-textPrimary mt-13">Veja as iterações</h3>
+          <p className="text-textSecundary mt-2.5 font-semibold">É possível ver o comportamento de cada algoritmo de maneira intuitiva</p>
         </div>
 
-        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl">
-          <div><PencilRuler /></div>
-          <h3>Possui comparações</h3>
-          <p>Veja a comparação entre os algoritmos em cada caso para um melhor estudo</p>
+        <div className="bg-gridItemBackgroundColor w-[350px] h-[175px] rounded-2xl p-5 flex flex-col justify-start">
+          <div className="bg-DarkerBackground p-2.5 w-fit rounded-xl absolute"><PencilRuler className="text-textHighlight"/></div>
+          <h3 className="font-bold text-textPrimary mt-13">Compare os algoritmos</h3>
+          <p className="text-textSecundary mt-2.5 font-semibold">Veja a comparação entre os algoritmos em cada caso para um melhor estudo</p>
         </div>
 
       </div>
