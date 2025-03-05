@@ -79,7 +79,7 @@ export default function Home() {
 
       </div>
 
-      <div className="flex flex-col px-35 md:px-90 h-150 py-5 gap-10">
+      <div className="flex flex-col items-center px-35 md:px-[375px] h-150 py-5 gap-10">
 
         <SortingForm />
         <div className="flex flex-row gap-6 items-center">

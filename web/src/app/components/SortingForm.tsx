@@ -17,7 +17,7 @@ export default function SortingForm() {
   };
 
   return(
-    <form onSubmit={handleSubmit} className="p-4 bg-gray-700 rounded-lg">
+    <form onSubmit={handleSubmit} className="p-4 bg-gray-700 rounded-lg w-2xs">
       <label className="block text-white mb-2">Escolha o algoritmo:</label>
       <select
         className="w-full p-2 rounded bg-gray-800 text-white"
