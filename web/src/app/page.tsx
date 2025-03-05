@@ -5,6 +5,7 @@ import SortingVisualizer from "@/app/components/SortingVisualizer";
 import SortingForm from "@/app/components/SortingForm";
 import SortingComparisons from "./components/SortingComparisons";
 import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   // Array inicial
@@ -41,19 +42,18 @@ export default function Home() {
       <header>
         <div className="flex flex-col md:flex-row items-center justify-between px-20 md:px-70 py-4.5">
 
-          <a href="">
+          <Link href="">
             <div className="flex flex-row gap-2 items-center cursor-pointer">
               <ChartNoAxesColumnIncreasing className="size-10 text-textHighlight"/>
               <h1 className="text-textPrimary font-bold text-2xl">Visualizador de Algoritmos de Ordenação</h1>
             </div>
-          </a>
+          </Link>
 
-          
           <div className="flex flex-row gap-10 items-center ">
 
-            <a href="" className="text-textSecundary font-bold cursor-pointer transition-colors duration-250 hover:text-textHighlight">
+            <Link href="/guide" className="text-textSecundary font-bold cursor-pointer transition-colors duration-250 hover:text-textHighlight">
               <div className="p-3">Guia</div>
-            </a>
+            </Link>
             <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer" className="text-textSecundary cursor-pointer transition-colors duration-250 hover:text-textHighlight">
               <div className="p-3"><Github /></div>
             </a>
