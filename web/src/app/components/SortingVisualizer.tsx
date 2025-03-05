@@ -27,7 +27,7 @@ export default function SortingVisualizer({ iterations }: SortingVisualizerProps
         <div
           key={index}
           className={`w-6 transition-all duration-300 ${
-            activeIndices.includes(index) ? "bg-green-400" : "bg-purple-500"
+            activeIndices.includes(index) ? "bg-green-400" : "bg-textHighlight"
           }`}
           style={{ height: `${value * 2}px` }}
         ></div>

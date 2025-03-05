@@ -17,10 +17,10 @@ export default function SortingForm() {
   };
 
   return(
-    <form onSubmit={handleSubmit} className="p-4 bg-gray-700 rounded-lg w-2xs">
+    <form onSubmit={handleSubmit} className="p-4 bg-lighterBackground rounded-lg w-2xs">
       <label className="block text-white mb-2">Escolha o algoritmo:</label>
       <select
-        className="w-full p-2 rounded bg-gray-800 text-white"
+        className="w-full p-2 rounded bg-background text-white"
         value={algorithm}
         onChange={(e) => setAlgorithm(e.target.value)}
       >
@@ -31,7 +31,7 @@ export default function SortingForm() {
         <option value="insertionSort">Insertion Sort</option>
       </select>
 
-      <button type="submit" className="mt-4 w-full bg-green-500 p-2 rounded text-white">
+      <button type="submit" className="mt-4 w-full bg-textHighlight p-2 rounded text-white font-bold">
         Run
       </button>
     </form>
