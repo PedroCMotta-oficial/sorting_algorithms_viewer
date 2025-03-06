@@ -1,8 +1,8 @@
 "use client";
 
 import { ChartNoAxesColumnIncreasing, Github, Clapperboard, PencilRuler, ArrowUpRight } from "lucide-react";
-import { Link, Element} from "react-scroll";
-
+import { Link as ScrollLink, Element} from "react-scroll";
+import Link from "next/link";
 
 export default function Guide() {
   return (
@@ -11,7 +11,7 @@ export default function Guide() {
       <header>
         <div className="flex flex-col md:flex-row items-center justify-between px-20 md:px-70 py-4.5">
 
-          <Link href="">
+          <Link href="/">
             <div className="flex flex-row gap-2 items-center cursor-pointer">
               <ChartNoAxesColumnIncreasing className="size-10 text-textHighlight"/>
               <h1 className="text-textPrimary font-bold text-2xl">Visualizador de Algoritmos de Ordenação</h1>
@@ -34,14 +34,14 @@ export default function Guide() {
 
 
       {/* Sumário */}
-      {/*<nav className="fixed top-0 left-0 bg-white p-4 shadow-md w-full">
+      <nav className="fixed left-0 bg-white p-4 shadow-md w-full">
         <ul className="flex space-x-4">
-          <li><Link to="como-usar" smooth={true} duration={500}>Como Usar</Link></li>
-          <li><Link to="significado-cores" smooth={true} duration={500}>Significado das Cores</Link></li>
-          <li><Link to="configuracoes" smooth={true} duration={500}>Configurações</Link></li>
-          <li><Link to="faq" smooth={true} duration={500}>Dúvidas Comuns</Link></li>
+          <li><ScrollLink to="como-usar" smooth={true} duration={500}>Como Usar</ScrollLink></li>
+          <li><ScrollLink to="significado-cores" smooth={true} duration={500}>Significado das Cores</ScrollLink></li>
+          <li><ScrollLink to="configuracoes" smooth={true} duration={500}>Configurações</ScrollLink></li>
+          <li><ScrollLink to="faq" smooth={true} duration={500}>Dúvidas Comuns</ScrollLink></li>
         </ul>
-      </nav>*/}
+      </nav>
 
       {/* Seções */}
       <div className="mt-20 p-4">
