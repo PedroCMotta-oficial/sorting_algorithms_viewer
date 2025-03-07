@@ -93,7 +93,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between px-20 md:px-70 py-4.5">
 
           <div className="flex flex-row gap-2">
-            <a href="" className="px-1.5 py-1 ">
+            <a href="/license" className="px-1.5 py-1 ">
               <div className="flex flex-row gap-1 items-center cursor-pointer">
                 <h1 className="text-textPrimary font-semibold">Licença</h1>
                 <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
