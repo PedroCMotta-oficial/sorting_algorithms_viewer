@@ -8,4 +8,6 @@ UX/UI v4.0 => footer
 
 UX/UI v5.0 => actors
 
-Guide page v => guide page
+Guide page v => guide page commits
+
+License page => license page commits
