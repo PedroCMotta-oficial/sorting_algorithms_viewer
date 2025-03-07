@@ -107,7 +107,7 @@ export default function Home() {
               </div>
             </a>
 
-            <a href="" className="px-1.5 py-1 ">
+            <a href="https://github.com/PedroCMotta-oficial/sorting_algorithms_viewer" className="px-1.5 py-1 ">
               <div className="flex flex-row gap-1 items-center cursor-pointer">
                 <h1 className="text-textPrimary font-semibold">GitHub</h1>
                 <ArrowUpRight className="size-3 text-textSecundary font-semibold" />
