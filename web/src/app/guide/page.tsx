@@ -46,33 +46,37 @@ export default function Guide() {
             <div>
               <h1 className="text-textPrimary font-bold text-3xl">Como Usar</h1>
             </div>
-            
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            
 
+            <div className="mt-5 text-lg">
+              <p>
+                Elemento correto para customização dos parágrafos, basta copiar e colar <span className="text-textHighlight">em cada Element da página de guia</span>
+              </p>
+              <br />
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            </div>
           </Element>
 
           <hr className="text-textSecundary mt-10 mb-10"/>
@@ -82,30 +86,36 @@ export default function Guide() {
               <h1 className="text-textPrimary font-bold text-3xl">Significado das Cores</h1>
             </div>
 
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            <div className="mt-5 text-lg">
+              <p>
+                Elemento correto para customização dos parágrafos, basta copiar e colar em cada Element da página de guia
+              </p>
+              <br />
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            </div>
           </Element>
 
           <hr className="text-textSecundary mt-10 mb-10"/>
@@ -115,30 +125,36 @@ export default function Guide() {
               <h1 className="text-textPrimary font-bold text-3xl">Configurações</h1>
             </div>
 
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            <div className="mt-5 text-lg">
+              <p>
+                Elemento correto para customização dos parágrafos, basta copiar e colar em cada Element da página de guia
+              </p>
+              <br />
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            </div>
           </Element>
 
           <hr className="text-textSecundary mt-10 mb-10"/>
@@ -148,30 +164,36 @@ export default function Guide() {
               <h1 className="text-textPrimary font-bold text-3xl">Dúvidas Comuns</h1>
             </div>
 
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...</p>
-            <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            <div className="mt-5 text-lg">
+              <p>
+                Elemento correto para customização dos parágrafos, basta copiar e colar em cada Element da página de guia
+              </p>
+              <br />
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...</p>
+              <p>Explicação de como usar a ferramenta...Explicação de como usar a ferramenta.. Explicação</p>
+            </div>
           </Element>
 
         </div>
