@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 export default function Sumary() {
   return (
-    <div>
+    <div className="mt-[50px]">
 
       <nav className="bg-background text-textSecundary font-semibold fixed">
         <ul>

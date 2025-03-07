@@ -40,7 +40,7 @@ export default function Guide() {
       <div className="flex flex-row px-75 md:px-[475px] py-4.5 justify-center gap-[40px] mt-[84px]">
 
         {/* Seções */}
-        <div className=" text-white w-[700px]">
+        <div className=" text-white w-[700px] mt-[50px]">
 
           <Element name="como-usar">
             <div>
